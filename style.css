@@ -41,6 +41,10 @@ button:hover {
     cursor: pointer;
 }
 
+img {
+    height: 400px;
+}
+
 .collar {
     margin: 50px;
     background: var(--tomato);
