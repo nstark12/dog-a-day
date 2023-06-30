@@ -1,0 +1,54 @@
+:root {
+    --gold: #fcba03;
+    --bubblegum: #df96e0;
+    --pool: #6cd3e6;
+    --lavendar: #a98bf0;
+    --sunny: #ffe642; 
+    --tomato: #fc4447;
+    --puppyBrown: #cc9156;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Caveat', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--puppyBrown);
+}
+
+h1 {
+    font-size: 80px;
+    margin: 20px;
+}
+
+button {
+    font-size: 30px;
+    padding: 10px 20px;
+    background: var(--sunny);
+    border: 3px solid var(--gold);
+    border-radius: 40px;
+}
+
+button:hover {
+    background: var(--gold);
+    cursor: pointer;
+}
+
+.collar {
+    margin: 50px;
+    background: var(--tomato);
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 5px dashed var(--gold);
+    border-bottom: 5px dashed var(--gold);
+}
